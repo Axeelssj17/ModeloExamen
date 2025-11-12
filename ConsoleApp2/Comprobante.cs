@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    class Comprobante
+    abstract class Comprobante
     {
         public int CodigoProducto { get; set; }
         public int Cantidad { get; set; }
